@@ -495,6 +495,7 @@ echo "##" >> /etc/hosts
 echo "127.0.0.1	localhost" >> /etc/hosts
 echo "255.255.255.255	broadcasthost" >> /etc/hosts
 echo "::1             localhost" >> /etc/hosts
+echo "127.0.0.1	ocsp.apple.com" >> /etc/hosts
 
 #moved to bottom (from big fat bootstrap)
 echo "Removing last tools and clearing ui cache.."
